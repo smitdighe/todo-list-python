@@ -1,6 +1,6 @@
 tasks = []
 while True:
-    print("\n1.Add 2.View 3.Remove 4.Exit")
+    print("\n1. Add 2.View 3.Remove 4.Exit")
     c = input("Enter choice: ")
     if c == "1":
         tasks.append(input("Enter task: "))
